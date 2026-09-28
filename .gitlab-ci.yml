@@ -1,0 +1,8 @@
+include:
+  - project: 'ai/gitlab-ci-templates'
+    ref: 'main'
+    file:
+      - '/collections/All-Projects.gitlab-ci.yml'
+
+variables:
+  PMD_CPD_DIR: "triton_grpc_client"
